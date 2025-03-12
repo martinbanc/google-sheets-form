@@ -4,7 +4,7 @@
     "description": "A public form that updates a Google Sheet using a secure backend API.",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+      "start": "node --openssl-legacy-provider index.js"
     },
     "dependencies": {
       "body-parser": "^1.20.1",
