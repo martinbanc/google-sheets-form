@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Public Submission Form</title>
+</head>
+<body>
+  <h1>Submission Form</h1>
+  <form action="/submit" method="post">
+    <label for="name">Name:</label><br/>
+    <input type="text" id="name" name="name" required><br/><br/>
+    
+    <label for="email">Email:</label><br/>
+    <input type="email" id="email" name="email" required><br/><br/>
+    
+    <label for="answer">Answer:</label><br/>
+    <textarea id="answer" name="answer" rows="4" cols="50" required></textarea><br/><br/>
+    
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
